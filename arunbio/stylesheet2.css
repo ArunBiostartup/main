@@ -1,0 +1,226 @@
+
+/*==============layout for index=============*/
+
+body{
+background-color: lightblue;
+margin: 0px;
+font-family: "Times New Roman";
+font-size: 14px;}
+
+#header {
+background-color: #101151;
+margin: 10px;
+height: 170px;
+border-radius: 5px;
+}
+#navbar {
+background-color: #101151;
+margin: 10px;
+height: 45px;
+border-radius: 5px;
+}
+#navbar ul {
+padding:0;
+margin: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navbar ul li{ display: inline;}
+
+#navbar ul li a {text-decoration: none;
+font-family: arial;
+padding: 8px 8px 8px 8px;
+color: white;
+background-color: #3954A5;
+}
+
+#navbar ul li a:hover{color: black;
+background-clour: white;}
+
+#navbar ul li ul {background-color: #3954A5;
+}
+#navbar ul li ul li {float: none;}
+#navbar ul li ul {display:none;}
+#navbar ul li:hover ul{ display: block; position absolute;}
+
+
+
+.button{
+border: 5px;
+border-radius: 3px;
+font: 700 20px "Arial";
+height: 45px;
+line-height: 45px;
+padding: 5px 10px;
+text-align: center;
+margin-right: 40px;
+margin-top:5px;
+box-sizing: borderbox;}
+
+
+.main1 {
+background-color: #EBDDD4;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 320px;
+border-radius: 5px;
+padding: 20px;
+color: black;
+font-size: 120%;
+}
+
+
+.main2
+{
+background-color: #EBDDD4;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 320px;
+border-radius: 5px;
+padding: 20px;
+font-size: 120%;
+}
+
+
+.servicesmain
+{
+background-color: #EBDDD4;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 120%;
+}
+.sidebar{background-color: #EBDDD4;
+margin-left: 10px;
+margin-right:10px;
+margin-top: 0px;
+margin-bottom: 5px;
+border-radius: 5px;
+padding: 20px;
+float: right;
+width: 260px;
+font-size: 100%;
+clear: right; }
+
+.imagesidebar
+{background-color: #EBDDD4;
+margin-left: 10px;
+margin-right:10px;
+margin-top: 0px;
+margin-bottom: 10px;
+border-radius: 5px;
+float: right;
+width: 300px;
+font-size: 150%;
+height: 400px;
+opacity: 1.0;
+transition: opacity 0.5s ease-in-out;
+}
+.imagesidebar:hover{opacity: 0.4;}
+
+#footer{background-color:#101151;
+margin: 10px;
+height: 150px;
+border-radius: 5px;
+clear: both; 
+color: white;
+text-align: center;
+padding: 15px;
+font-size: 120%;}
+
+#footer ul {
+padding: 5px;
+margin: 10px;
+list-style-type: none;
+text-align: center
+border-radius: 5px;}
+
+#footer ul li{ display: inline;}
+
+#footer ul li a {text-decoration: none;
+font-family: arial;
+padding: .2em 1em;
+color: white;
+
+}
+
+#footer ul li a:hover{color: red;
+background-clour: white;}
+
+
+/*===========Services boxes section===============*/
+#box{ background-color: #101151;
+border: 2px solid #000;
+border-radius: 5px;
+font-size: 95%;
+padding: 10px;
+margin: 20px;
+width: 280px;
+colour: white;
+
+}
+
+ #box:hover{color: black;
+background-clour: white;}
+
+.test{diplay: block;
+text-align: center;
+}
+
+
+/*===========headers section===============*/
+h1{font-size: 450%;
+color: #47FED3;
+text-align: center;
+font-family: "Klavika";
+margin: 0px;
+
+position: relative;
+top: 50%; 
+-webkit-transform:translateY(-50%);
+-ms-transform:translateY(-50%);
+transform:translateY(-50%);}
+
+h2{font-size: 150%;
+color: #ce282e;}
+
+h3
+{font-size: 300%;
+text-align: center;
+color: #29364E;
+
+}
+
+
+
+/* =======tools=========================*/
+
+
+#nav {
+
+font-size: 25px;
+height: 35px;
+font-weight: bold;
+font: georgia}
+
+ #nav ul {
+padding:0;
+margin: 0;
+list-style-type: none;
+text-align: center}
+
+#nav ul li{ display: inline;}
+
+#nav a {text-decoration: none;
+padding: 8px 8px 8px 8px
+color: #666
+float: left;}
+
+a:hover{color: #000;
+background-clour: #dadada}
